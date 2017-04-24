@@ -7,8 +7,10 @@ public class Calculadora {
         c=a+b;
         System.out.println("a+b="+c);
     }
-    public double restar(){
-        
+    public void restar(double a, double b){
+        double c;
+        c = a - b;
+        System.out.printf("La resta de %.2f menos %.2f es igual a %.2f %n", a, b, c);
     }
     public void multiplicar(double a, double b){
         double result;
@@ -17,7 +19,7 @@ public class Calculadora {
         System.out.println("resultado = " + result);
         
     }
-    public double dividir(){
+    public void dividir(){
         
     }
 }
