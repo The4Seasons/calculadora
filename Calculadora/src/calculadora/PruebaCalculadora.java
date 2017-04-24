@@ -25,15 +25,15 @@ public class PruebaCalculadora {
         calc.sumar(a,b);    
         }
         //Llama al metodo restar
-        if(opcion==2){
+        else if(opcion==2){
             
         }
         //Llama al metodo multiplicar
-        if(opcion==3){
+       else  if(opcion==3){
             calc.multiplicar(a,b)
         }
         //Llama al metodo dividir
-        if(opcion==4){
+       else if(opcion==4){
             
         }
         //Indica que la opcion ingresada no es valida
