@@ -30,7 +30,7 @@ public class PruebaCalculadora {
         }
         //Llama al metodo multiplicar
         if(opcion==3){
-            
+            calc.multiplicar(a,b)
         }
         //Llama al metodo dividir
         if(opcion==4){
