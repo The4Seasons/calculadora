@@ -15,9 +15,14 @@ public class PruebaCalculadora {
                 + "Teclea 3 para realizar una multiplicación%nTeclea 4 para realizar una división%n"
                 + "Tu opción: ");
         opcion=entrada.nextInt();
+            System.out.print("Ingresa el primer numero ");
+        a=entrada.nextDouble();
+        System.out.print("Ingresa el segundo numero ");
+        b=entrada.nextDouble();
+        Calculadora calc= new Calculadora();
         //Llama al metodo sumar
         if(opcion==1){
-            
+        calc.sumar(a,b);    
         }
         //Llama al metodo restar
         if(opcion==2){
