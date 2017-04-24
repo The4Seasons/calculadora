@@ -2,17 +2,18 @@
  package calculadora;
 
 public class Calculadora {
-    public double sumar(){
-        
+    public void sumar(double a, double b){
+        double c;
+        c=a+b;
+        System.out.println("a+b="+c);
     }
     public double restar(){
         
     }
-    public double multiplicar(){
-        int x, y, result;
-        x = 5;
-        y = 3;
-        result = x*y;
+    public void multiplicar(double a, double b){
+        double result;
+        
+        result = a*b;
         System.out.println("resultado = " + result);
         
     }
